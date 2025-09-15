@@ -1,0 +1,24 @@
+table {
+    opacity: 0;
+    transition: 0.5s;
+}
+table.show {
+    opacity: 1;
+    animation: auto;
+    transition: 0.5s;
+}
+button {
+    border: 0;
+    outline: 0;
+    background: #021e2e;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    color: aliceblue;
+}
+button:hover{
+    background: #5a686f;
+    color: rgb(19, 20, 20);
+
+}
